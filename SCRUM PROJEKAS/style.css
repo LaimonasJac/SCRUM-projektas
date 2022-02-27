@@ -1,0 +1,629 @@
+
+
+._10{
+    float: left;
+    width: 50%;
+    height: 100vh;
+    
+}
+
+._11{
+    padding-top: 20vh;
+    padding-left: 10vw;
+    width: 35%;
+    overflow: hidden;
+
+}
+
+.tekstas{
+    overflow: hidden;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 30vh;
+}
+ 
+.about_us{
+    padding-top: 20vh;
+    padding-left: 20vw;
+    padding-right: 20vw;
+}
+
+._13{
+    width: 50%;
+}
+
+._12{
+    float: left;
+    width: 50%;
+}
+
+.two_photos{
+    padding-top: 20vh;
+}
+
+.tekstas_2{
+    overflow: hidden;
+    padding-top: 40vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+   
+}
+
+._14{
+    float: right;
+    padding-top: 20vh;
+    width: 40%;
+    padding-right: 10vw;
+}
+
+
+.tekstas_3{
+    
+    padding-top: 60vh;
+   
+   padding-right: 10vw;
+  
+   
+}
+
+._15{
+    width: 50%;
+    float: left;
+    padding-top: 40vh;
+    padding-right: 10vw;
+    padding-left: 10vw;
+}
+
+.our_mantra{
+    padding-top: 30vh;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    margin-bottom: 20vh;
+}
+
+.last_section{
+    background-color: rgb(164, 200, 216);
+}
+
+.left{
+    
+  margin-top: 3.5vw;
+ padding-right: 15vw;
+    float: left; 
+    margin-left: 14vw;
+    padding-bottom: 10vh;
+}
+
+.right{
+    margin-top: 4vw;
+    padding-bottom: 10vh;
+   
+}
+
+.last_section h1{
+    padding-top: 10vh;
+    color: white;
+    padding-left: 14vw ;
+    
+}
+
+._16  {
+    width: 27vw;
+}
+
+._17  {
+    width: 27vw;
+}
+
+.text_under_right{
+    padding-top: 3vh;
+    color: white;
+}
+
+.text_under_left{
+    padding-top: 3vh;
+    color: white;
+}
+
+._18{
+    height: 600px;
+    padding-left: 20vw;
+}
+
+
+
+
+
+
+
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+}
+main button {
+  padding: 10px 25px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  outline: none;
+  border: 1px solid black;
+  box-shadow: black 6px 6px;
+  width: 160px;
+}
+main button:hover {
+  box-shadow: none
+}
+header {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #fff;
+  z-index: 1000;
+}
+nav {
+  background-color: #fff;
+}
+.navbar-brand img {
+  width: 200px
+}
+.nav-item a {
+  color: black
+}
+.nav-item a:hover {
+  /* text-decoration: underline */
+}
+.nav-item a:hover::after {
+    margin-left: 10px;
+    font-family: "Font Awesome 5 Pro";
+    content: "\f30b";
+}
+.navbar-toggler {
+  outline: none;
+}
+.navbar-toggler span {
+  color: #11070C;
+  font-size: 30px
+}
+
+#offcanvasNavbar button {
+    background-color: white
+}
+#offcanvasNavbar img {
+  width: 250px
+}
+main {
+  margin-top: 70px;
+  height: 900px;
+}
+.banner {
+  height: 70vh;
+  margin-bottom: 50px
+}
+.swiper {
+  height: 100%;
+}
+.swiper .swiper-pagination-bullet {
+  background-color: black;
+  width: 40px;
+  height: 4px;
+  border-radius: 0
+}
+.mySwiper .swiper-slide {
+  background-color: #CCC;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase
+}
+.mySwiper .swiper-slide:first-child {
+  background-image: url("images/1.png");
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.mySwiper .swiper-slide:last-child {
+  background-image: url('https://ae01.alicdn.com/kf/HTB12kQFcrsTMeJjy1zbq6AhlVXaw/Kitten-PNG-HD-Custom-Cotton-Printed-O-Neck-Short-Sleeve-Black-Clothes-Girl-Patchwork-Slim-Fit.jpg_Q90.jpg_.webp');
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.mySwiper .swiper-slide:first-child > div {
+  position: absolute;
+  bottom: 60px;
+  left: 75px;
+  color: #FFF;
+  font-weight: bolder
+}
+.mySwiper .swiper-slide:first-child h2:nth-child(2) {
+  font-size: 53px
+}
+.mySwiper2 .swiper-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.mySwiper2 .swiper-slide img {
+  margin: 0 auto;
+}
+.mySwiper2 .swiper-slide_info {
+  display: flex;
+  margin: 0 auto;
+} 
+.mySwiper2 .swiper-slide_info p {
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-right: 20px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  cursor: initial
+}
+.mySwiper2 i {
+  cursor: pointer;
+}
+.mySwiper2 #price {
+  margin: 0;
+  margin-left: 10px;
+  font-size: 12px;
+  text-align: center
+}
+.new-drop {
+  width: 85%;
+  margin: 30px auto;
+}
+.new-drop .new-drop_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px
+}
+
+.new-drop p {
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+.new-drop p i {
+  margin-left: 5px;
+}
+.new-drop p:hover i {
+  transform: translateY(-4px);
+  transition:0.3s;
+}
+.swiper-btn span i {
+  margin-left: 10px;
+  font-size: 30px
+}
+
+.mySwiper2 .swiper-slide {
+  display: flex;
+  justify-content: center
+}
+.mySwiper2 .swiper-slide img {
+  width: 200px;
+  object-fit: cover
+}
+.mudredream {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90vw;
+  height: 80vh;
+  margin: 20px auto;
+  padding-top: 30px;
+}
+.mudredream > div {
+  min-width: 300px; 
+  flex: 1;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.mudredream .mudredream_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover
+}
+.mudredream .mudredream_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+
+}
+.mudredream .mudredream_text p:nth-child(2) {
+  font-size: 24px;
+  font-weight: bolder
+}
+.mudredream .mudredream_text p:nth-child(3) {
+  font-size: 14px;
+  font-weight: 400
+}
+.mudredream .mudredream_text button {
+  margin: 0 auto
+}
+.collection {
+  height: 70vh;
+  background-color: #12121C;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 20px
+}
+.collection p:nth-child(2) {
+  font-size: 48px;
+}
+.collection p:nth-child(2):hover::after {
+  margin-left: 15px;
+  font-family: "Font Awesome 5 Pro";
+  content: "\f30b";
+}
+.collection p:nth-child(3) {
+  font-size: 48px
+}
+.collection p:nth-child(3):hover::after {
+  margin-left: 15px;
+  font-family: "Font Awesome 5 Pro";
+  content: "\f30b";
+}
+
+.collection-mobile {
+  display: none
+}
+.collection-mobile_swiper .swiper-slide {
+  background-color: #CCC;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  text-transform: uppercase
+}
+.collection-mobile_swiper .swiper-slide:first-child {
+  /* height: 100%; */
+  padding: 30px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content:space-around;
+  justify-content: center;
+  background-image: url('https://ae01.alicdn.com/kf/HTB12kQFcrsTMeJjy1zbq6AhlVXaw/Kitten-PNG-HD-Custom-Cotton-Printed-O-Neck-Short-Sleeve-Black-Clothes-Girl-Patchwork-Slim-Fit.jpg_Q90.jpg_.webp');
+  background-position: center;
+  object-fit: cover
+}
+.collection-mobile_swiper .swiper-slide:first-child p {
+  width: 100%;
+  font-size: 20px;
+}
+.collection-mobile_swiper .swiper-slide:first-child p:nth-child(2) {
+  text-align: center;
+  font-size: 48px
+}
+.collection-mobile_swiper .swiper-slide:first-child button {
+  width: 200px;
+}
+.hover_img {
+  background-image: url('https://ae01.alicdn.com/kf/HTB12kQFcrsTMeJjy1zbq6AhlVXaw/Kitten-PNG-HD-Custom-Cotton-Printed-O-Neck-Short-Sleeve-Black-Clothes-Girl-Patchwork-Slim-Fit.jpg_Q90.jpg_.webp');
+  background-position: center;
+  object-fit: cover;
+  transition: 0.8s ease-out;
+}
+.hover_img1 {
+  background-image: url("images/1.png");
+  background-position: center;
+  object-fit: cover;
+  transition: 0.8s ease-out;
+}
+.featured-collections {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90vw;
+  height: 80vh;
+  margin: 20px auto;
+  padding-top: 30px;
+}
+.featured-collections div {
+  min-width: 260px; 
+  flex: 1;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.featured-collections div:first-child {
+  flex-direction: column;
+}
+.featured-collections h1 {
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+.featured-collections img {
+  margin: 0 auto;
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+}
+.a {
+  height: 80vh;
+  width: 85vw;
+  margin: 60px auto;
+}
+.a h2 {
+  margin-bottom: 30px;
+  text-transform: uppercase
+}
+
+.a-images {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  height: 80%;
+}
+.a-images div {
+  flex: 1;
+}
+.a-images div:first-child {
+  background-image: url("images/3.png");
+  background-size: cover;
+}
+.a-images div:last-child {
+  background-image: url("images/4.png");
+  background-size: cover;
+  position: relative;
+  top: -60px;
+  right: 0;
+
+}
+.a-images div img {
+  width: 100%;
+  height: 100%;
+}
+
+ @media only screen and (max-width: 767px) {
+  
+  #offcanvasNavbar {
+  background-color: black;
+  }
+
+  #offcanvasNavbar ul li a {
+    color: white;
+    font-size: 30px
+  }
+  #offcanvasNavbar ul li:nth-child(4) {
+    margin-bottom: 30px
+  }
+  #offcanvasNavbar ul li.d-md-none a {
+    font-size: 20px
+  }
+  .navbar-brand img {
+    width: 150px
+
+  }
+  .mySwiper .swiper-slide:first-child > div {
+  position: absolute;
+  bottom: 50px;
+  left: 35px;
+  color: #FFF;
+  font-weight: bolder
+}
+.swiper-slide:first-child h2:nth-child(2) {
+  font-size: 45px
+}
+
+.mudredream  {
+  height: auto;
+}
+.mudredream div {
+  height: auto;
+  margin: 20px auto;
+}
+.mudredream .mudredream_image {
+  order: 1;
+}
+.collection {
+  display: none;
+}
+.collection-mobile {
+  margin-top: 20px;
+  display: block;
+  height: 75vh;
+}
+.featured-collections {
+  height: auto;
+}
+.featured-collections div {
+  margin: 20px auto;
+}
+.a {
+  height: auto;
+}
+.a-images {
+  flex-direction: column;
+  height: 500px;
+}
+.a-images div:last-child {
+  margin-top: 20px;
+  top: 0
+}
+
+}
+@media only screen and (max-width: 360px) {
+   .navbar-brand img {
+    width: 100px
+  }
+  #offcanvasNavbar img {
+  width: 150px
+}
+.mySwiper .swiper-slide:first-child {
+  background-position-x: -80px;
+  background-size: cover;
+  
+}
+.mudredream {
+  margin: 0 auto;
+}
+.mudredream > div {
+  min-width: 200px;
+  margin: 0px auto;
+}
+.collection-mobile_swiper .swiper-slide:first-child p:nth-child(1) {
+  font-size: 16px;
+}
+.collection-mobile_swiper .swiper-slide:first-child p:nth-child(2) {
+  font-size: 25px;
+}
+.featured-collections {
+  margin: 10px;
+}
+.featured-collections div {
+  margin: 10px auto;
+}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .offcanvas {
+  max-width: 250px;
+}
+nav .icons i {
+  margin-left: 15px
+}
+nav .icons i:hover {
+  color: #99e6ff;
+  cursor: pointer;
+}
+.mudredream {
+  height: auto;
+}
+.featured-collections {
+  height: auto;
+}
+.a {
+  height: auto;
+}
+.a-images {
+  height: 500px;
+}
+}
+
+@media only screen and (min-width: 1025px) {
+  .offcanvas {
+  max-width: 250px;
+}
+}
